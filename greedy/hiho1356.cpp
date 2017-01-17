@@ -2,7 +2,7 @@
     > File Name: hiho1356.cpp
     > Author: Yuchen Wang
     > Mail: wyc8094@gmail.com 
-    > Created Time: Tue Jan 17 15:54:22 2017
+    > Created Time: Tue Jan 17 20:43:23 2017
  ************************************************************************/
 
 #include<iostream>
@@ -23,7 +23,7 @@ int n;
 
 int main()
 {
-	freopen("input","r",stdin);
+//	freopen("input","r",stdin);
 	int i,j;
 	int last = -1,cur;
 	map<int,int>::iterator it;
@@ -63,4 +63,3 @@ int main()
 	}
 	return 0;
 }
-

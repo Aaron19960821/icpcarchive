@@ -1,3 +1,4 @@
-###ICPCArchive
-I am an ACM-ICPC participator and learned tons of different data structures and 
-algorithms when preparing for this. This is just a sum-up. Study-oriented.
+###ICPC archive
+As a ACM-ICPC participator, I learned tons of different data structures and 
+algroithms when preparing for this contest. Here are some of my source code. 
+Study-oriented.
