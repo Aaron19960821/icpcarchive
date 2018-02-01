@@ -5,6 +5,8 @@
     > Created Time: Sun Jan 14 15:59:16 2018
  ************************************************************************/
 
+#define MACOS
+
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -66,11 +68,17 @@ void Dfs(int step, bool isNegative)
 
 int main()
 {
-//	freopen("cf915c.in","r",stdin);
+#ifdef MACOS
+	freopen("cf915c.in","r",stdin);
+#endif
 	cin >> a >> b;
 	ans = curAns = 0;
 	int len = Init();
 	int sum = 0;
+
+/*
+ *if the length of b is greater than a, then any permutation is legal. Otherwise we can perform a dp algorithm with greedy thinking. Choose the digit that is closest to the current digit. Note that there may be some conflicts so it is still a dp algorithm,
+ */
 
 	for(int i=0;i<=9;i++)
 	{
